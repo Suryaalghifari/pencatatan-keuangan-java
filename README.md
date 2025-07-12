@@ -4,22 +4,6 @@ Ini adalah latihan logika dan pemrograman Java untuk mencatat transaksi keuangan
 
 ---
 
-## 📁 Struktur Folder
-
-Semua file sudah dipisahkan ke dalam folder sesuai dengan fungsinya:
-src/
-├── interf/ # Berisi interface
-│ └── PencatatanKeuanganInterface.java
-├── main/ # Berisi program utama
-│ └── Main.java
-├── sistem/ # Berisi logika sistem pencatatan keuangan
-│ └── SistemPencatatanKeuangan.java
-└── transaksi/ # Berisi class Transaksi dan KategoriTransaksi
-├── KategoriTransaksi.java
-└── Transaksi.java
-
----
-
 ## 📝 Cara Menjalankan Program
 
 1. **Masuk ke Folder src**
