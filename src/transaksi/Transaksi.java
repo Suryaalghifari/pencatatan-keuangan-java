@@ -1,5 +1,5 @@
 package transaksi;
-
+import java.util.Date;
 
 public class Transaksi {
     private int id;  // definsikan terlebih dahulu untuk masing - masing atribut
@@ -7,7 +7,7 @@ public class Transaksi {
     private double jumlah;
     private String keterangan; 
 
-    public Transaksi (int id, Date Tanggal, double jumlah, String keterangan) {
+    public Transaksi (int id, Date tanggal, double jumlah, String keterangan) {
         this.id = id;
         this.tanggal = tanggal;
         this.jumlah = jumlah;
@@ -18,11 +18,9 @@ public class Transaksi {
     public int getId() {
         return id;
     }
-
     public Date getTanggal() {
         return tanggal;
     }
-
     public double getJumlah() {
         return jumlah;
     }
@@ -30,7 +28,7 @@ public class Transaksi {
         return keterangan;
     }
 
-    public void tampilanTransaksi() {
+    public void tampilkanTransaksi() {
           System.out.println("ID Transaksi : "+id);
           System.out.println("Tanggal Transaksi : "+tanggal);
           System.out.println("Jumlah Transaksi : "+jumlah);

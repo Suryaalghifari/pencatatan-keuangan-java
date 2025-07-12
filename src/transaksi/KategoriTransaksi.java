@@ -1,4 +1,4 @@
-package kategoritransaksi;
+package transaksi;
 
 public class KategoriTransaksi {
     private int id; //definisi untuk atribut yang di perlukan 
@@ -18,11 +18,11 @@ public class KategoriTransaksi {
     public String getNama() {
         return nama;
     }
-    public String gettipeKategori() {
+    public String getTipeKategori() {
         return tipeKategori;
     }
 
-    public void tampilanKategori() {
+    public void tampilkanKategori() {
         System.out.println("ID Kategori Transaksi : "+id);
         System.out.println("Nama Kategori : "+nama);
         System.out.println("Tipe Kategori : "+tipeKategori);
